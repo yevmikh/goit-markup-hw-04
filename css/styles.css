@@ -361,19 +361,7 @@ img {
 .team-icon-list {
   width: 40px;
   height: 40px;
-  background-color: var(--main-color);
-  border-radius: 50%;
-
   display: flex;
-  justify-content: center;
-  align-items: center;
-
-  transition: background-color var(--transition-all);
-}
-
-.team-icon-list:hover,
-.team-icon-list:focus {
-  background-color: var(--active-color);
 }
 
 .team-icon-item {
@@ -385,7 +373,21 @@ img {
 }
 .team-icon-link {
   display: flex;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color var(--transition-all);
 }
+
+.team-icon-link:hover,
+.team-icon-link:focus {
+  background-color: var(--active-color);
+}
+
 .team-flex {
   display: flex;
   gap: 24px;
