@@ -534,7 +534,9 @@ img {
   flex-shrink: 0;
   padding: 12px 24px;
   align-items: center;
+}
 
+.portfolio-button-item {
   transition: background-color var(--transition-all),
     color var(--transition-all), border var(--transition-all);
 }
@@ -605,15 +607,13 @@ img {
   left: 0;
   color: var(--accent-light-color);
 
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 40px;
+  padding: 40px 32px;
 
   transform: translateY(100%);
   transition: transform var(--transition-all);
 }
 
-.portfolio-table-list:is(:hover, focus) .portfolio-overlay-text {
+.portfolio-table-list:is(:hover, :focus) .portfolio-overlay-text {
   transform: translateY(0);
 }
 
