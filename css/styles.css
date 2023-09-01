@@ -610,8 +610,7 @@ img {
   transition: transform var(--transition-all);
 }
 
-.portfolio-table-list:hover .portfolio-overlay-text,
-.portfolio-table-list:focus .portfolio-overlay-text {
+.portfolio-table-list:is(:focus) .portfolio-overlay-text {
   transform: translateY(0%);
 }
 
