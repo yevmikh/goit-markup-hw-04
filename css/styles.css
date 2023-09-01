@@ -441,6 +441,7 @@ img {
 
 .customers-link:is(:hover, :focus) .customers-icon {
   fill: var(--active-color);
+  color: var(--active-color);
 }
 
 /**
