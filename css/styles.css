@@ -136,6 +136,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo-flex {
   display: inline-block;
   margin-right: 76px;
@@ -148,9 +149,11 @@ img {
 .current-status {
   color: var(--active-color);
 }
+
 .current-list {
   position: relative;
 }
+
 .current-underline::after {
   content: '';
   display: block;
@@ -172,6 +175,7 @@ img {
 
   transition: color var(--transition-all);
 }
+
 .nav-item-current {
   color: var(--active-color);
 }
@@ -347,17 +351,20 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .team-subtitle {
   margin-bottom: 8px;
 }
 .team-text {
   margin-bottom: 8px;
 }
+
 .team-icon {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
+
 .team-icon-list {
   width: 40px;
   height: 40px;
@@ -367,10 +374,12 @@ img {
 .team-icon-item {
   fill: var(--accent-light-color);
 }
+
 .paddding-standart {
   padding-top: var(--padding-120);
   padding-bottom: var(--padding-120);
 }
+
 .team-icon-link {
   display: flex;
   border-radius: 50%;
@@ -392,6 +401,7 @@ img {
   display: flex;
   gap: 24px;
 }
+
 .customers-header {
   color: var(--header-text-color);
   text-align: center;
@@ -402,11 +412,13 @@ img {
 
   margin-bottom: 72px;
 }
+
 .customers-flex {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
+
 .customers-list {
   width: calc((100% - 120px) / 6);
   height: 88px;
@@ -424,6 +436,7 @@ img {
 
   transition: border-color var(--transition-all), color var(--transition-all);
 }
+
 .customers-icon {
   fill: currentColor;
   transition: fill var(--transition-all);
@@ -459,6 +472,7 @@ img {
 .footer-text {
   color: var(--accent-light-color);
 }
+
 .footer-flex {
   display: flex;
   align-items: baseline;
@@ -509,6 +523,7 @@ img {
 .footer-social-icon {
   fill: var(--accent-light-color);
 }
+
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--social-footer);
@@ -573,6 +588,7 @@ img {
   display: block;
   transition: box-shadow var(--transition-all);
 }
+
 .portfolio-group {
   padding: 32px 16px;
 
@@ -595,6 +611,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .portfolio-overlay-text {
   width: 100%;
   height: 100%;
@@ -610,7 +627,7 @@ img {
   transition: transform var(--transition-all);
 }
 
-.portfolio-table-list:is(:focus) .portfolio-overlay-text {
+.portfolio-table-link:is(:hover, :focus) .portfolio-overlay-text {
   transform: translateY(0%);
 }
 
